@@ -27,3 +27,11 @@ button.btn-section-2:hover {
 .button-section-2 {
     margin-top: 25px;
 }
+
+h5.modal-title {
+    margin: auto;
+}
+
+.modal-form {
+    padding: 2rem;
+}
