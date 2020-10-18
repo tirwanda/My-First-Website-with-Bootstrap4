@@ -3,12 +3,12 @@
     background: none;
 }
 
-.section-1 {
+.sectionLight {
     background-color: #eceeef;
     padding: 2rem;
 }
 
-.section-2 {
+.sectionDark {
     background-color: #cccccc;
     padding: 2rem;
 }
@@ -34,4 +34,37 @@ h5.modal-title {
 
 .modal-form {
     padding: 2rem;
+}
+
+img.imgCenter {
+    display: block;
+    margin: auto;
+}
+
+button.btnCenter {
+    color: #ffff;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 57%;
+}
+
+.fa-facebook-square {
+    color: #3b5998;
+    margin: 10px;
+}
+
+.fa-google-plus-square {
+    color: crimson;
+    margin: 10px;
+}
+
+.fa-instagram {
+    color: #fff;
+    margin: 10px;
+}
+
+.socialMediaIcon {
+    margin: auto;
 }

@@ -5,11 +5,15 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="bootstrap-4.0.0-alpha.6-dist/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="bootstrap-4.0.0-alpha.6-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/main.css" </head> <body>
+    <link rel="stylesheet" href="css/main.css">
+    <title>Skate Bootstrap</title>
+</head>
+
+<body>
     <div class="container-fluid">
         <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
@@ -42,7 +46,7 @@
             </div>
         </nav>
 
-        <div class="section-1">
+        <div class="sectionLight">
             <div class="row">
                 <div class="col-sm-12">
                     <div class="jumbotron jumbotron-fluid">
@@ -99,7 +103,7 @@
             </div>
         </div>
 
-        <div class="section-2">
+        <div class="sectionDark">
             <div class="row">
                 <div class="col-sm-12 col-md-2 offset-md-1">
                     <img class="img-fluid" src="image/skate.png" alt="skate">
@@ -135,15 +139,71 @@
                 <div class="col-sm-12">
                     <div class="button-section-2">
                         <button type="button" class="btn btn-lg btn-section-2" data-toggle="modal"
-                            data-target="#myPopUp">Learn More</button>
+                            data-target="#myPopUp">Learn More
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="sectionLight">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="row">
+                        <div class="col-sm-12 col-lg-4">
+                            <img class="img-fluid imgCenter" src="image/html-logo.png" alt="javascript">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <button type="button" class="btn btn-danger btn-md btnCenter" data-toggle="modal"
+                                        data-target=".sectionLightModal1">Learn More</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-lg-4">
+                            <img class="img-fluid imgCenter" src="image/html-logo.png" alt="javascript">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <button type="button" class="btn btn-danger btn-md btnCenter" data-toggle="modal"
+                                        data-target=".sectionLightModal2">Learn More</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-lg-4">
+                            <img class="img-fluid imgCenter" src="image/html-logo.png" alt="javascript">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <button type="button" class="btn btn-danger btn-md btnCenter" data-toggle="modal"
+                                        data-target=".sectionLightModal3">Learn More</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
+    <footer class="footer bg-inverse">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-3 col-lg-3">
+                    <img class="img-fluid imgCenter" src="image/bootstrap-logo.png" alt="bootstrap-logo">
+                </div>
+                <div class="col-sm-9 col-lg-9 socialMediaIcon">
+                    <a href="https://www.facebook.com" target="_blank">
+                        <i class="fa fa-facebook-square fa-3x"></i></a>
+                    <a href="https://www.gmail.com" target="_blank">
+                        <i class="fa fa-google-plus-square fa-3x"></i></a>
+                    <a href="https://www.instagram.com" target="_blank">
+                        <i class="fa fa-instagram fa-3x"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-    <!------------------------- Modal ---------------------------------------->
+
+
+    <!------------------------- Modal Section Dark ---------------------------------------->
 
     <div class="modal fade" id="myPopUp" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -186,6 +246,43 @@
         </div>
     </div>
 
+    <!-------------------------------- Modal Section Light 1---------------------------------------->
+    <div class="modal fade sectionLightModal1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/AXShKS4Y0O0"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade sectionLightModal2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/AXShKS4Y0O0"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade sectionLightModal3" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/AXShKS4Y0O0"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
@@ -195,6 +292,6 @@
         integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous">
     </script>
     <script src="bootstrap-4.0.0-alpha.6-dist/js/bootstrap.min.js"></script>
-    </body>
+</body>
 
 </html>
